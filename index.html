@@ -6,10 +6,511 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3605704c8f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header class="container-fluid bg-header">
+        <section class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active text-white" aria-current="page" href="#">News</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-5">
+                            <button class="btn text-white bg-button" type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Top Banner Section -->
+        <section class="container my-5">
+            <div class="">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="text-white">
+                            <p class="my-3">Computer-controlled digital transistorized with electronic advance</p>
+                            <h1 class="my-3 fw-bold">Honda CBR 300R</h1>
+                            <p class="my-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit
+                                officia
+                                consequat
+                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn text-white bg-button" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Purchase
+                            </button>
 
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="staticBackdropLabel">Thank You for
+                                                Purchasign</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p>This is the best machine for speed, comfort and maintainance</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn bg-button text-white">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div>
+                            <img class="img-fluid" src="images/header-bike.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="container-fluid">
+        <!-- Features Bike Section  -->
+        <section class="container">
+            <h1 class="text-center fw-bolder">Fetured Bikes 2021</h1>
+            <small class="text-center d-block text-orange fw-bolder">Best bike collection</small>
+            <!-- <hr class="border border-1 hr-size border-danger"> -->
+            <div class="row my-5 gy-5">
+                <div class="col-md-4 col-12">
+                    <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Latest News  -->
+        <section class="container my-5">
+            <h1 class="text-center fw-bolder">Latest News</h1>
+            <div class="row gy-3">
+                <div class="col-md-4 col-12">
+                    <div class="border border-3 rounded-3 shadow p-3">
+                        <div class="">
+                            <img class="img-fluid" src="images/bike-1.png" alt="">
+                        </div>
+                        <div>
+                            <h2>Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at.</p>
+                            <button class="btn text-white bg-button" type="submit">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="border border-3 rounded-3 shadow p-3">
+                        <div class="">
+                            <img class="img-fluid" src="images/bike-2.png" alt="">
+                        </div>
+                        <div>
+                            <h2>Motorcycles & Scooters</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at.</p>
+                            <button class="btn text-white bg-button" type="submit">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="border border-3 rounded-3 shadow p-3">
+                        <div class="">
+                            <img class="img-fluid" src="images/bike-3.png" alt="">
+                        </div>
+                        <div>
+                            <h2>2021 Honda CBR500R</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at.</p>
+                            <button class="btn text-white bg-button" type="submit">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Happy Clients says -->
+        <section class="container my-5">
+            <h1 class="text-center fw-bolder">Happy <span class="text-orange">Clients says</span></h1>
+            <div class="row my-5 gy-4">
+                <div class="col-md-4 col-12">
+                    <div class="border border-3 rounded-3 shadow p-3">
+                        <div class="p-5">
+                            <img class="img-fluid" src="images/user-1.png" alt="">
+                        </div>
+                        <div class="text-center my-3">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="d-flex align-items center justify-content-center my-3">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star filled"></i>
+                            </div>
+                            <p class="text-blue">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="border border-3 rounded-3 shadow p-3">
+                        <div class="p-5">
+                            <img class="img-fluid" src="images/user-2.png" alt="">
+                        </div>
+                        <div class="text-center my-3">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="d-flex align-items center justify-content-center my-3">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star filled"></i>
+                            </div>
+                            <p class="text-blue">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="border border-3 rounded-3 shadow p-3">
+                        <div class="p-5">
+                            <img class="img-fluid" src="images/circle-cropped (1).png" alt="">
+                        </div>
+                        <div class="text-center my-3">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="d-flex align-items center justify-content-center my-3">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star filled"></i>
+                            </div>
+                            <p class="text-blue">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section  -->
+        <section class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-12">
+                    <div class="p-5">
+                        <img class="img-fluid" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-md-12 col-12">
+                            <div class="my-3">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree1" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree1">
+                                                <h4>What are the most important things I should
+                                                    know about riding a bike?</h4>
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree1" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingThree1">
+                                            <div class="accordion-body">
+                                                Safety First! Always obey the rules of the road. Obey all traffic
+                                                signals, signs, and laws. Get in the mindset of “driving” your bike—not
+                                                just “riding” your bike. This will help you be a more focused and
+                                                legally compliant bike rider.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12">
+                            <div class="my-3">
+                                <div class="accordion" id="accordionPanelsStayOpenExample2">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree2" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree2">
+                                                <h4>How can I tell if my helmet is old and I need a
+                                                    new one?</h4>
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree2" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingThree2">
+                                            <div class="accordion-body">
+                                                If you see your helmat surface is scrachted and getting foggy on while
+                                                riding . Then you need to understand that your helmat is old enough to
+                                                get a new one.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12">
+                            <div class="my-3">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree3" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree3">
+                                                <h4>My bike has been in storage is it safe to ride?</h4>
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree3" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingThree3">
+                                            <div class="accordion-body">
+                                                If you are using out latest technology storage then you need nothing to
+                                                worry. cause our storage is testted with upto 50 pound storage with top
+                                                speed 150kmlp.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12">
+                            <div class="my-3">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree4" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree4">
+                                                <h4>What rules should I follow when riding my bike?</h4>
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree4" class="accordion-collapse collapse"
+                                            aria-labelledby="panelsStayOpen-headingThree4">
+                                            <div class="accordion-body">
+                                                first were helmat second take your authorise driving permit then take
+                                                your jackets and other accessories. remembert don't talk on phone while
+                                                riding.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Form Section Extra Part-1  -->
+        <section class="container my-5">
+            <h2 class="text-center fw-bold">Stay Informed on the Latest News & Updates</h2>
+            <p class="text-center fw-bold text-orange">Sign up for exclusive email updates and offers.</p>
+            <form>
+                <div class="row my-5">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Email Address">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Postal Code">
+                    </div>
+                </div>
+                <div>
+                    <div class="container d-grid my-3">
+                        <button class="btn fw-bold bg-button text-white" type="button">SUBMIT</button>
+                    </div>
+                </div>
+                <small class="text-center d-block fw-bold">By clicking on Submit you agree to receive promotional emails
+                    from
+                    the
+                    Polaris family of brands
+                    including Indian Motorcycle. You can opt-out at any time. <br> Privacy Policy</small>
+            </form>
+        </section>
+        <!-- Test Drive Section Extra Part 2  -->
+        <section class="container my-5">
+            <div class="row gx-4 gy-3">
+                <div class="col-md-3 col-12">
+                    <div class="border border-2 p-3">
+                        <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
+                        <i class="fas fa-motorcycle filled h3"></i>
+                        <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
+                        <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
+                        <div class="d-grid my-3">
+                            <button class="btn fw-bold bg-button text-white" type="button">REQUEST TEST RIDE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="border border-2 p-3">
+                        <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
+                        <i class="fas fa-motorcycle filled h3"></i>
+                        <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
+                        <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
+                        <div class="d-grid my-3">
+                            <button class="btn fw-bold bg-button text-white" type="button">REQUEST TEST RIDE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="border border-2 p-3">
+                        <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
+                        <i class="fas fa-motorcycle filled h3"></i>
+                        <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
+                        <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
+                        <div class="d-grid my-3">
+                            <button class="btn fw-bold bg-button text-white" type="button">REQUEST TEST RIDE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="border border-2 p-3">
+                        <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
+                        <i class="fas fa-motorcycle filled h3"></i>
+                        <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
+                        <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
+                        <div class="d-grid my-3">
+                            <button class="btn fw-bold bg-button text-white" type="button">REQUEST TEST RIDE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-footer py-5">
+        <div class="d-md-flex align-items-center justify-content-around">
+            <div>
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Download Now</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">License</a>
+                                </li>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Help</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Privacy
+                                        Policy</a>
+                                </li>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+            <div>
+                <h3 class="text-footer">Get the App</h3>
+                <img src="images/footer-img.png" alt="">
+            </div>
+        </div>
+        <small class="text-footer text-center d-block">&nbsp;&nbsp; © 2020 bike. All rights reserved</small>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,47 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-header{
+    background-color: #264653;
+}
+.bg-button{
+    background-color: #E76F51;
+}
+.hr-size{
+    margin: 2px 630px;
+    display: block;
+    
+    
+}
+.text-orange{
+    color: #E76F51;
+    
+}
+.border-orange{
+    border-color: #E76F51;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+.round-img{
+    border-radius: 50%;
+}
+.filled{
+    color: #E77C40;
+}
+.text-blue{
+    color: #23A6F0;
+}
+.bg-footer{
+    background-color: #0B0D17;
+}
+.text-footer{
+    color: #D9DBE1;
+}
+.button:hover{
+    background-color: #ce988b;
+}
