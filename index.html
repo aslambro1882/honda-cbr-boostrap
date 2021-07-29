@@ -19,48 +19,55 @@
 <body>
     <header class="container-fluid bg-header">
         <section class="container">
-            <nav class="navbar navbar-expand-sm navbar-light">
+            <nav class="navbar navbar-expand-sm navbar-light bg-header fixed-top">
                 <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item mx-3">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Shop</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#shop">Shop</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link active text-white" aria-current="page" href="#">News</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#news">News</a>
                             </li>
                             <li class="nav-item mx-3">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
                             </li>
+                            <li>
+                                <form class="text-center">
+                                    <button class="btn text-white bg-button" type="submit">Login</button>
+                                </form>
+                            </li>
+
                         </ul>
-                        <form class="d-flex ms-5">
-                            <button class="btn text-white bg-button" type="submit">Login</button>
-                        </form>
+
                     </div>
                 </div>
             </nav>
         </section>
         <!-- Top Banner Section -->
-        <section class="container my-5">
+        <section id="home" class="container my-5">
             <div class="">
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="text-white">
                             <p class="my-3">Computer-controlled digital transistorized with electronic advance</p>
                             <h1 class="my-3 fw-bold">Honda CBR 300R</h1>
-                            <p class="my-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                                Velit
-                                officia
-                                consequat
-                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <p class="my-3">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then
+                                the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light,
+                                and a total blast to ride around town and on twisty back roads. The single-cylinder
+                                engine offers great fuel economy, with smooth and friendly torque delivery. And the
+                                affordable cost and responsive handling makes it a terrific bike for first-time riders,
+                                and for those looking to grow their garage. There’s even a version available with our
+                                anti-lock braking system. Plus, this year the CBR300R brings hot new graphics in two
+                                color choices. Time to get riding!</p>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn text-white bg-button" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">
@@ -75,7 +82,7 @@
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h5 class="modal-title text-dark" id="staticBackdropLabel">Thank You for
-                                                Purchasign</h5>
+                                                Purchasing</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
@@ -85,7 +92,8 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn bg-button text-white">Understood</button>
+                                            <button type="button" class="btn bg-button text-white"
+                                                data-bs-dismiss="modal">Understood</button>
                                         </div>
                                     </div>
                                 </div>
@@ -101,12 +109,14 @@
             </div>
         </section>
     </header>
-    <main class="container-fluid">
+    <main id="shop" class="container-fluid">
         <!-- Features Bike Section  -->
         <section class="container">
             <h1 class="text-center fw-bolder">Fetured Bikes 2021</h1>
             <small class="text-center d-block text-orange fw-bolder">Best bike collection</small>
-            <!-- <hr class="border border-1 hr-size border-danger"> -->
+            <div class="hr-flex">
+                <div class="hr-style"></div>
+            </div>
             <div class="row my-5 gy-5">
                 <div class="col-md-4 col-12">
                     <img class="img-fluid grayscale" src="images/feature-bike.jpg" alt="">
@@ -120,7 +130,7 @@
             </div>
         </section>
         <!-- Latest News  -->
-        <section class="container my-5">
+        <section id="news" class="container my-5">
             <h1 class="text-center fw-bolder">Latest News</h1>
             <div class="row gy-3">
                 <div class="col-md-4 col-12">
@@ -130,9 +140,10 @@
                         </div>
                         <div>
                             <h2>Ducati XDIAVEL S-73</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
-                                sed
-                                id nisi lectus at.</p>
+                            <p>Ducati renews the XDiavel range by introducing two new versions for 2021: the XDiavel
+                                Dark and the XDiavel Black Star.
+                                XDiavel, the Ducati cruiser that combines the best of both worlds, is renewed, still
+                                remaining true to its philosophy. </p>
                             <button class="btn text-white bg-button" type="submit">Read More</button>
                         </div>
                     </div>
@@ -144,9 +155,11 @@
                         </div>
                         <div>
                             <h2>Motorcycles & Scooters</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
-                                sed
-                                id nisi lectus at.</p>
+                            <p>The RSV4 is much more than a pair of wheels and a powerful engine. The culmination of an
+                                ambitious project undertaken by the Aprilia Racing Division and adopting the very best
+                                available technology, all seamlessly
+                                combined on the
+                                signature Aprilia chassis.</p>
                             <button class="btn text-white bg-button" type="submit">Read More</button>
                         </div>
                     </div>
@@ -158,9 +171,9 @@
                         </div>
                         <div>
                             <h2>2021 Honda CBR500R</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
-                                sed
-                                id nisi lectus at.</p>
+                            <p>Is it any wonder why the Honda CBR500R is one of our most popular sportbikes? It just
+                                gets so many things right. Price. Power. Weight. Handling. Its twin-cylinder engine revs
+                                freely and produces plenty of torque.</p>
                             <button class="btn text-white bg-button" type="submit">Read More</button>
                         </div>
                     </div>
@@ -177,10 +190,8 @@
                             <img class="img-fluid" src="images/user-1.png" alt="">
                         </div>
                         <div class="text-center my-3">
-                            <p>Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</p>
+                            <p>This bike is help me to get my destination easier. As a Doctor, I'm always in busy
+                                schedule. to catch all the patient call my bike is a time saver machine.</p>
                             <div class="d-flex align-items center justify-content-center my-3">
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
@@ -189,7 +200,7 @@
                                 <i class="far fa-star filled"></i>
                             </div>
                             <p class="text-blue">Regina Miles</p>
-                            <p class="fw-bold">Banker</p>
+                            <p class="fw-bold">Doctor</p>
                         </div>
                     </div>
                 </div>
@@ -221,10 +232,8 @@
                             <img class="img-fluid" src="images/circle-cropped (1).png" alt="">
                         </div>
                         <div class="text-center my-3">
-                            <p>Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</p>
+                            <p>As we all know, software engineers are the smartest, sweetest, most pretentious bastards
+                                in corporate Bangladesh.</p>
                             <div class="d-flex align-items center justify-content-center my-3">
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
@@ -233,14 +242,14 @@
                                 <i class="far fa-star filled"></i>
                             </div>
                             <p class="text-blue">Regina Miles</p>
-                            <p class="fw-bold">Banker</p>
+                            <p class="fw-bold">Engineer</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- FAQ Section  -->
-        <section class="container">
+        <section id="contact" class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6 col-12">
                     <div class="p-5">
@@ -392,13 +401,14 @@
         </section>
         <!-- Test Drive Section Extra Part 2  -->
         <section class="container my-5">
+            <h1 class="text-center">Test <span class="text-orange">Ride</span></h1>
             <div class="row gx-4 gy-3">
                 <div class="col-md-3 col-12">
                     <div class="border border-2 p-3">
                         <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
                         <i class="fas fa-motorcycle filled h3"></i>
                         <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
-                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2">&nbsp; +88019854745</i>
                         <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
                         <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
                         <div class="d-grid my-3">
@@ -411,7 +421,7 @@
                         <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
                         <i class="fas fa-motorcycle filled h3"></i>
                         <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
-                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2">&nbsp; +88019854745</i>
                         <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
                         <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
                         <div class="d-grid my-3">
@@ -424,7 +434,7 @@
                         <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
                         <i class="fas fa-motorcycle filled h3"></i>
                         <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
-                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2">&nbsp; +88019854745</i>
                         <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
                         <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
                         <div class="d-grid my-3">
@@ -437,7 +447,7 @@
                         <h4>BANGLADESHI MORORCYCLE OF HONOLULU</h4>
                         <i class="fas fa-motorcycle filled h3"></i>
                         <p>6859.7 Mi <br> 550 NORTH DHAKA HWY <br> BANGLADESH, HI 96817</p>
-                        <i class="fas fa-phone-square-alt d-block text-blue my-2"> &nbsp; +88019854745</i>
+                        <i class="fas fa-phone-square-alt d-block text-blue my-2">&nbsp; +88019854745</i>
                         <i class="fas fa-map-marker-alt d-block text-blue my-2">&nbsp; Map & Directions</i>
                         <i class="fas fa-link text-blue">&nbsp; Dealer Website</i>
                         <div class="d-grid my-3">

@@ -45,3 +45,14 @@ body{
 .button:hover{
     background-color: #ce988b;
 }
+.hr-style{
+    width: 60px;
+    height: 2px;
+    background-color: #E77C40;
+    
+    
+}
+.hr-flex{
+    display: flex;
+    justify-content: center;
+}
